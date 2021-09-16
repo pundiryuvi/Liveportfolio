@@ -35,9 +35,6 @@ const Home = () => {
                       .pauseFor(1000)
                       .deleteAll()
                       .typeString("DJANGO DEVELOPMENT")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("FRONTEND DEVELOPMENT")
                       .start();
                       }}
                     />
