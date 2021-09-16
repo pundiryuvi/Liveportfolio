@@ -25,19 +25,19 @@ const Home = () => {
 
                       typewriter
    
-                      .typeString("UI/UX DESIGNER")
+                      .typeString("UI/UX DESIGN")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("WEB DESIGNER")
+                      .typeString("WEB DESIGN")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("REACT DEVELOPER")
+                      .typeString("REACT DEVELOPMENT")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("DJANGO DEVELOPER")
+                      .typeString("DJANGO DEVELOPMENT")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("FRONTEND DEVELOPER")
+                      .typeString("FRONTEND DEVELOPMENT")
                       .start();
                       }}
                     />
