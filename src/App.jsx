@@ -6,12 +6,12 @@ import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Redirect, Route, Switch,HashRouter } from 'react-router-dom';
 
 
 const App = () => {
     return(
-        <>
+        <HashRouter>
 
         <Navbar/>
         <Switch>
@@ -23,7 +23,7 @@ const App = () => {
         <Footer/>
        
          
-        </>
+        </HashRouter>
     );
 
 };
